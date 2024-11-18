@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card height="100%">
     <v-img
       :src="product.data.image"
       :alt="product.data.name"
