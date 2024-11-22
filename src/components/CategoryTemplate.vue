@@ -15,7 +15,7 @@
 
 <script lang="ts" setup>
   import { computed, onMounted } from 'vue';
-  import { useProductStore } from "@/stores/ProductStore";
+  import { useProductStore } from "../stores/ProductStore";
   import StoreItem from "./StoreItem.vue";
 
   const props = defineProps<{
